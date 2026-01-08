@@ -1,0 +1,39 @@
+.footer {
+  background-color: #2f3f6b;
+  padding: 2rem;
+  color: white;
+}
+
+.sections {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+.section {
+  font-size: 0.875rem;
+}
+
+.title {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.text {
+  opacity: 0.85;
+}

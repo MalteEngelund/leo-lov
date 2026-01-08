@@ -1,0 +1,28 @@
+
+
+.container {
+  position: relative;
+}
+
+.cardHeaderImage {
+  display: block;
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+
+.mainHeaderh1 {
+  font-size: 128px;
+  color: white;
+  margin: 0;
+}
+.mainHeaderh1 span:first-of-type {
+color: #002BC2;
+
+}
+.hgroup {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  color: white;
+}
