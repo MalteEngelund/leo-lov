@@ -72,9 +72,10 @@ function App() {
       />
 
 
-      <Wrapper id="Advokaterne">    
+      <Wrapper id="Advokaterne">
       {teamArray.map((item) => {
         return (
+          
           <Card key={item.id}>
             <CardHeader src={item.src} alt={'image_road'}/>
             <CardBody>

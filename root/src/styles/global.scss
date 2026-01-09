@@ -7,6 +7,8 @@ body {
 }
 
 
+
+// temp
 #retCards {
   max-width: 1300px;
   margin: auto;
@@ -15,6 +17,7 @@ body {
 
 #retCards > div {
   box-shadow: 1px 2px 4px rgba(33, 33, 33, 0.5);
+  border-radius: 8px;
   width: 270px;
 }
 
@@ -29,15 +32,18 @@ body {
 #Advokaterne {
   display: flex;
   gap: 50px;
-}
-
-#Advokaterne div{
   border: none;
+    > div {
+      border: none;
+      border-bottom: v.$dark-blue solid 5px;
+    }
+    h3{
+    font-size: v.$font-size-base;
+    }
 }
 
-#Advokaterne h3{
-  font-size: v.$font-size-base;
-}
+
+
 
 #headerTest {
   display: block;
