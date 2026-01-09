@@ -1,8 +1,12 @@
+@use '../../styles/variables.module.scss' as v;
+
 .figure {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  border: blue 5px solid;
-  margin: 20px 0;
+  border: v.$dark-blue 5px solid;
+  margin: 65px 0;
+  max-height: 530px;
+  background-color: v.$primary-white;
 }
 .figure:nth-of-type(even){
   direction: rtl;
@@ -14,16 +18,23 @@
   object-fit: cover;
 }
 
+.figcaption{
+  background-color: v.$primary-white;
+}
+
 .figcaption h3 {
   text-align: center;
   margin-top: 50px;
-  color: blue;
+  color: v.$primary-blue;
+  font-size: v.$font-size-section-headers;
+  font-family: v.$font-family-headers;
+  font-weight: v.$font-weight-regular;
 }
 
 .article {
   padding: 64px;
   direction: ltr;
-
+  font-family: v.$font-family-main;
 }
 
 .figcaption p{

@@ -1,4 +1,4 @@
-
+@use '../../styles/variables.module.scss' as v;
 .navbar {
   display: flex;
   align-items: center;
@@ -9,13 +9,13 @@
 }
 
 .logo {
-  font-size: 1.25rem;
-  font-weight: bold;
-  font-family: sans-serif;
-  color: black;
+  font-size: 32px;
+  font-weight: v.$font-weight-regular;
+  font-family: v.$font-family-headers;
+  color: v.$black;
 }
 .logo span:first-of-type {
-  color: #002BC2;
+  color: v.$primary-blue;
 }
 
 .navList {
@@ -27,14 +27,14 @@
 }
 
 .navItem {
-  border-right: blue 2px solid;
+  border-right: v.$primary-blue 2px solid;
   padding-right: 1.5rem;
 }
 
 .navLink {
-  color: blue;
+  color: v.$primary-blue;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: v.$font-weight-regular;
   font-family: sans-serif;
 
 

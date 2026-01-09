@@ -1,0 +1,4 @@
+@import url(../src/styles/variables.module.scss);
+@import url(../src/styles/global.module.scss);
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jura:wght@300..700&display=swap');
+

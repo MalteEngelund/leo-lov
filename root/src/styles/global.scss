@@ -1,0 +1,40 @@
+@use './variables.module.scss' as v;
+
+body {
+  font-family: v.$font-family-main;
+  margin: 0;
+  background-color: v.$primary-white;
+}
+
+
+#retCards {
+  max-width: 1300px;
+  margin: auto;
+  gap: 40px;
+}
+
+#retCards > div {
+  box-shadow: 1px 2px 4px rgba(33, 33, 33, 0.5);
+}
+
+#retCards h3{
+  margin: 50px 0;
+}
+
+#retCards p {
+
+}
+
+#Advokaterne {
+  display: flex;
+  gap: 50px;
+}
+
+#Advokaterne div{
+  border: none;
+}
+
+#Advokaterne h3{
+  font-size: v.$font-size-base;
+}
+

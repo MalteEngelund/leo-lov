@@ -1,5 +1,18 @@
+@use '../../styles/variables.module.scss' as v;
+
 .wrapperClass {
   display: flex;
   gap: 16px;
   justify-content: center;
+}
+
+
+#retCards {
+  font-family: v.$font-family-main;
+}
+
+#retCards h3 {
+  font-family: v.$font-family-headers;
+  font-size: v.$font-size-section-headers;
+  color: v.$primary-blue;
 }

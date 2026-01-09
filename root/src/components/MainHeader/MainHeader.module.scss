@@ -1,4 +1,4 @@
-
+@use '../../styles/variables.module.scss' as v;
 
 .container {
   position: relative;
@@ -13,13 +13,22 @@
 
 .mainHeaderh1 {
   font-size: 128px;
-  color: white;
+  font-weight: v.$font-weight-regular;
+  color: v.$primary-white;
   margin: 0;
+  font-family: v.$font-family-headers;
 }
+
 .mainHeaderh1 span:first-of-type {
-color: #002BC2;
+color: v.$primary-blue;
 
 }
+
+.mainHeaderh3{
+  font-family: v.$font-family-main;
+  font-weight: 400;
+}
+
 .hgroup {
   position: absolute;
   top: 10%;
